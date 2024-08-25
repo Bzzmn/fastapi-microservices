@@ -1,0 +1,7 @@
+POST http://localhost:8001/orders
+Content-Type: application/json
+
+{
+  "id": "01J63A9EA9B56BMYDQHNKQ9KZG",
+  "quantity": 2 
+}

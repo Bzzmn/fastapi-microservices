@@ -1,0 +1,22 @@
+POST http://localhost:8000/products
+Content-Type: application/json
+
+{
+  "name": "Product 1",
+  "price": 100.99,
+  "quantity": 10
+}
+
+###
+DELETE http://localhost:8000/products/01J60S4PT9MGABK5WG39HYND3B
+
+
+###
+PUT http://localhost:8000/products/01J63A9EA9B56BMYDQHNKQ9KZG
+Content-Type: application/json
+
+{
+  "name": "Product 3",
+  "price": 80.99,
+  "quantity": 5
+}
